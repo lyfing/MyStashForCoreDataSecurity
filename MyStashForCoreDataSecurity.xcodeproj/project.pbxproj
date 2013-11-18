@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C404953A1838F3AF007B328A /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB21E18385C3200A2AA85 /* MSAppDelegate.m */; };
+		C404953D1838FAB6007B328A /* MSPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C404953C1838FAB6007B328A /* MSPasswordViewController.m */; };
+		C404954C1838FB73007B328A /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = C404954B1838FB73007B328A /* Account.m */; };
+		C404954D1838FB73007B328A /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = C404954B1838FB73007B328A /* Account.m */; };
+		C40495501838FB73007B328A /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = C404954F1838FB73007B328A /* Note.m */; };
+		C40495511838FB73007B328A /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = C404954F1838FB73007B328A /* Note.m */; };
+		C40495521838FEA6007B328A /* MSPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C404953C1838FAB6007B328A /* MSPasswordViewController.m */; };
+		C404955618390A8E007B328A /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C404955518390A8E007B328A /* NSData+Encryption.m */; };
+		C404955718390A8E007B328A /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C404955518390A8E007B328A /* NSData+Encryption.m */; };
+		C404955B18390EFA007B328A /* MSPasswordTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C404955A18390EFA007B328A /* MSPasswordTransformer.m */; };
+		C404955C18390EFA007B328A /* MSPasswordTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C404955A18390EFA007B328A /* MSPasswordTransformer.m */; };
+		C4DFB20D18385C3200A2AA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DFB20C18385C3200A2AA85 /* Foundation.framework */; };
+		C4DFB20F18385C3200A2AA85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DFB20E18385C3200A2AA85 /* CoreGraphics.framework */; };
+		C4DFB21118385C3200A2AA85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DFB21018385C3200A2AA85 /* UIKit.framework */; };
+		C4DFB21318385C3200A2AA85 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DFB21218385C3200A2AA85 /* CoreData.framework */; };
+		C4DFB21918385C3200A2AA85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4DFB21718385C3200A2AA85 /* InfoPlist.strings */; };
+		C4DFB21B18385C3200A2AA85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB21A18385C3200A2AA85 /* main.m */; };
+		C4DFB21F18385C3200A2AA85 /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB21E18385C3200A2AA85 /* MSAppDelegate.m */; };
+		C4DFB22218385C3200A2AA85 /* MyStashForCoreDataSecurity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB22018385C3200A2AA85 /* MyStashForCoreDataSecurity.xcdatamodeld */; };
+		C4DFB22418385C3200A2AA85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DFB22318385C3200A2AA85 /* Images.xcassets */; };
+		C4DFB22B18385C3200A2AA85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DFB22A18385C3200A2AA85 /* XCTest.framework */; };
+		C4DFB22C18385C3200A2AA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DFB20C18385C3200A2AA85 /* Foundation.framework */; };
+		C4DFB22D18385C3200A2AA85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DFB21018385C3200A2AA85 /* UIKit.framework */; };
+		C4DFB22E18385C3200A2AA85 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DFB21218385C3200A2AA85 /* CoreData.framework */; };
+		C4DFB23618385C3200A2AA85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4DFB23418385C3200A2AA85 /* InfoPlist.strings */; };
+		C4DFB23818385C3200A2AA85 /* MyStashForCoreDataSecurityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB23718385C3200A2AA85 /* MyStashForCoreDataSecurityTests.m */; };
+		C4DFB24718385E1000A2AA85 /* MSNoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB24618385E1000A2AA85 /* MSNoteListViewController.m */; };
+		C4DFB24818385E1000A2AA85 /* MSNoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB24618385E1000A2AA85 /* MSNoteListViewController.m */; };
+		C4DFB24B18385F1600A2AA85 /* MSPasswordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB24A18385F1600A2AA85 /* MSPasswordListViewController.m */; };
+		C4DFB24C18385F1600A2AA85 /* MSPasswordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB24A18385F1600A2AA85 /* MSPasswordListViewController.m */; };
+		C4DFB258183868B200A2AA85 /* MSNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB257183868B200A2AA85 /* MSNoteViewController.m */; };
+		C4DFB259183868B200A2AA85 /* MSNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFB257183868B200A2AA85 /* MSNoteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4DFB22F18385C3200A2AA85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4DFB20118385C3200A2AA85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DFB20818385C3200A2AA85;
+			remoteInfo = MyStashForCoreDataSecurity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C404953B1838FAB6007B328A /* MSPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPasswordViewController.h; sourceTree = "<group>"; };
+		C404953C1838FAB6007B328A /* MSPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPasswordViewController.m; sourceTree = "<group>"; };
+		C404954A1838FB73007B328A /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		C404954B1838FB73007B328A /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		C404954E1838FB73007B328A /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		C404954F1838FB73007B328A /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		C404955418390A8E007B328A /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		C404955518390A8E007B328A /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		C404955818390DAE007B328A /* MyStashForCoreDataSecurity1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyStashForCoreDataSecurity1.xcdatamodel; sourceTree = "<group>"; };
+		C404955918390EFA007B328A /* MSPasswordTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPasswordTransformer.h; sourceTree = "<group>"; };
+		C404955A18390EFA007B328A /* MSPasswordTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPasswordTransformer.m; sourceTree = "<group>"; };
+		C4DFB20918385C3200A2AA85 /* MyStashForCoreDataSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStashForCoreDataSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DFB20C18385C3200A2AA85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4DFB20E18385C3200A2AA85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4DFB21018385C3200A2AA85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4DFB21218385C3200A2AA85 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C4DFB21618385C3200A2AA85 /* MyStashForCoreDataSecurity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyStashForCoreDataSecurity-Info.plist"; sourceTree = "<group>"; };
+		C4DFB21818385C3200A2AA85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4DFB21A18385C3200A2AA85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4DFB21C18385C3200A2AA85 /* MyStashForCoreDataSecurity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyStashForCoreDataSecurity-Prefix.pch"; sourceTree = "<group>"; };
+		C4DFB21D18385C3200A2AA85 /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		C4DFB21E18385C3200A2AA85 /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
+		C4DFB22118385C3200A2AA85 /* MyStashForCoreDataSecurity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyStashForCoreDataSecurity.xcdatamodel; sourceTree = "<group>"; };
+		C4DFB22318385C3200A2AA85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4DFB22918385C3200A2AA85 /* MyStashForCoreDataSecurityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStashForCoreDataSecurityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DFB22A18385C3200A2AA85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C4DFB23318385C3200A2AA85 /* MyStashForCoreDataSecurityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyStashForCoreDataSecurityTests-Info.plist"; sourceTree = "<group>"; };
+		C4DFB23518385C3200A2AA85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4DFB23718385C3200A2AA85 /* MyStashForCoreDataSecurityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStashForCoreDataSecurityTests.m; sourceTree = "<group>"; };
+		C4DFB24418385CC400A2AA85 /* GlobalMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalMacros.h; sourceTree = "<group>"; };
+		C4DFB24518385E1000A2AA85 /* MSNoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNoteListViewController.h; sourceTree = "<group>"; };
+		C4DFB24618385E1000A2AA85 /* MSNoteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNoteListViewController.m; sourceTree = "<group>"; };
+		C4DFB24918385F1600A2AA85 /* MSPasswordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPasswordListViewController.h; sourceTree = "<group>"; };
+		C4DFB24A18385F1600A2AA85 /* MSPasswordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPasswordListViewController.m; sourceTree = "<group>"; };
+		C4DFB2551838654300A2AA85 /* EntityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityMacros.h; sourceTree = "<group>"; };
+		C4DFB256183868B200A2AA85 /* MSNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNoteViewController.h; sourceTree = "<group>"; };
+		C4DFB257183868B200A2AA85 /* MSNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNoteViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4DFB20618385C3200A2AA85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DFB20F18385C3200A2AA85 /* CoreGraphics.framework in Frameworks */,
+				C4DFB21318385C3200A2AA85 /* CoreData.framework in Frameworks */,
+				C4DFB21118385C3200A2AA85 /* UIKit.framework in Frameworks */,
+				C4DFB20D18385C3200A2AA85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DFB22618385C3200A2AA85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DFB22B18385C3200A2AA85 /* XCTest.framework in Frameworks */,
+				C4DFB22E18385C3200A2AA85 /* CoreData.framework in Frameworks */,
+				C4DFB22D18385C3200A2AA85 /* UIKit.framework in Frameworks */,
+				C4DFB22C18385C3200A2AA85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C404955318390A78007B328A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C404955418390A8E007B328A /* NSData+Encryption.h */,
+				C404955518390A8E007B328A /* NSData+Encryption.m */,
+			);
+			name = Category;
+			path = MyStashForCoreDataSecurity/Category;
+			sourceTree = SOURCE_ROOT;
+		};
+		C4DFB20018385C3200A2AA85 = {
+			isa = PBXGroup;
+			children = (
+				C4DFB21418385C3200A2AA85 /* MyStashForCoreDataSecurity */,
+				C4DFB23118385C3200A2AA85 /* MyStashForCoreDataSecurityTests */,
+				C4DFB20B18385C3200A2AA85 /* Frameworks */,
+				C4DFB20A18385C3200A2AA85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4DFB20A18385C3200A2AA85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFB20918385C3200A2AA85 /* MyStashForCoreDataSecurity.app */,
+				C4DFB22918385C3200A2AA85 /* MyStashForCoreDataSecurityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4DFB20B18385C3200A2AA85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFB20C18385C3200A2AA85 /* Foundation.framework */,
+				C4DFB20E18385C3200A2AA85 /* CoreGraphics.framework */,
+				C4DFB21018385C3200A2AA85 /* UIKit.framework */,
+				C4DFB21218385C3200A2AA85 /* CoreData.framework */,
+				C4DFB22A18385C3200A2AA85 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4DFB21418385C3200A2AA85 /* MyStashForCoreDataSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFB21D18385C3200A2AA85 /* MSAppDelegate.h */,
+				C4DFB21E18385C3200A2AA85 /* MSAppDelegate.m */,
+				C4DFB24418385CC400A2AA85 /* GlobalMacros.h */,
+				C404955318390A78007B328A /* Category */,
+				C4DFB24118385CA800A2AA85 /* Controller */,
+				C4DFB24218385CA800A2AA85 /* Model */,
+				C4DFB24318385CA800A2AA85 /* View */,
+				C4DFB22318385C3200A2AA85 /* Images.xcassets */,
+				C4DFB22018385C3200A2AA85 /* MyStashForCoreDataSecurity.xcdatamodeld */,
+				C4DFB21518385C3200A2AA85 /* Supporting Files */,
+			);
+			path = MyStashForCoreDataSecurity;
+			sourceTree = "<group>";
+		};
+		C4DFB21518385C3200A2AA85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFB21618385C3200A2AA85 /* MyStashForCoreDataSecurity-Info.plist */,
+				C4DFB21718385C3200A2AA85 /* InfoPlist.strings */,
+				C4DFB21A18385C3200A2AA85 /* main.m */,
+				C4DFB21C18385C3200A2AA85 /* MyStashForCoreDataSecurity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4DFB23118385C3200A2AA85 /* MyStashForCoreDataSecurityTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFB23718385C3200A2AA85 /* MyStashForCoreDataSecurityTests.m */,
+				C4DFB23218385C3200A2AA85 /* Supporting Files */,
+			);
+			path = MyStashForCoreDataSecurityTests;
+			sourceTree = "<group>";
+		};
+		C4DFB23218385C3200A2AA85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFB23318385C3200A2AA85 /* MyStashForCoreDataSecurityTests-Info.plist */,
+				C4DFB23418385C3200A2AA85 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4DFB24118385CA800A2AA85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFB24518385E1000A2AA85 /* MSNoteListViewController.h */,
+				C4DFB24618385E1000A2AA85 /* MSNoteListViewController.m */,
+				C4DFB256183868B200A2AA85 /* MSNoteViewController.h */,
+				C4DFB257183868B200A2AA85 /* MSNoteViewController.m */,
+				C4DFB24918385F1600A2AA85 /* MSPasswordListViewController.h */,
+				C4DFB24A18385F1600A2AA85 /* MSPasswordListViewController.m */,
+				C404953B1838FAB6007B328A /* MSPasswordViewController.h */,
+				C404953C1838FAB6007B328A /* MSPasswordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C4DFB24218385CA800A2AA85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFB2551838654300A2AA85 /* EntityMacros.h */,
+				C404954E1838FB73007B328A /* Note.h */,
+				C404954F1838FB73007B328A /* Note.m */,
+				C404954A1838FB73007B328A /* Account.h */,
+				C404954B1838FB73007B328A /* Account.m */,
+				C404955918390EFA007B328A /* MSPasswordTransformer.h */,
+				C404955A18390EFA007B328A /* MSPasswordTransformer.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4DFB24318385CA800A2AA85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4DFB20818385C3200A2AA85 /* MyStashForCoreDataSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DFB23B18385C3200A2AA85 /* Build configuration list for PBXNativeTarget "MyStashForCoreDataSecurity" */;
+			buildPhases = (
+				C4DFB20518385C3200A2AA85 /* Sources */,
+				C4DFB20618385C3200A2AA85 /* Frameworks */,
+				C4DFB20718385C3200A2AA85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStashForCoreDataSecurity;
+			productName = MyStashForCoreDataSecurity;
+			productReference = C4DFB20918385C3200A2AA85 /* MyStashForCoreDataSecurity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4DFB22818385C3200A2AA85 /* MyStashForCoreDataSecurityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DFB23E18385C3200A2AA85 /* Build configuration list for PBXNativeTarget "MyStashForCoreDataSecurityTests" */;
+			buildPhases = (
+				C4DFB22518385C3200A2AA85 /* Sources */,
+				C4DFB22618385C3200A2AA85 /* Frameworks */,
+				C4DFB22718385C3200A2AA85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DFB23018385C3200A2AA85 /* PBXTargetDependency */,
+			);
+			name = MyStashForCoreDataSecurityTests;
+			productName = MyStashForCoreDataSecurityTests;
+			productReference = C4DFB22918385C3200A2AA85 /* MyStashForCoreDataSecurityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4DFB20118385C3200A2AA85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = lyfing.inc;
+				TargetAttributes = {
+					C4DFB22818385C3200A2AA85 = {
+						TestTargetID = C4DFB20818385C3200A2AA85;
+					};
+				};
+			};
+			buildConfigurationList = C4DFB20418385C3200A2AA85 /* Build configuration list for PBXProject "MyStashForCoreDataSecurity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4DFB20018385C3200A2AA85;
+			productRefGroup = C4DFB20A18385C3200A2AA85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4DFB20818385C3200A2AA85 /* MyStashForCoreDataSecurity */,
+				C4DFB22818385C3200A2AA85 /* MyStashForCoreDataSecurityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4DFB20718385C3200A2AA85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DFB21918385C3200A2AA85 /* InfoPlist.strings in Resources */,
+				C4DFB22418385C3200A2AA85 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DFB22718385C3200A2AA85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DFB23618385C3200A2AA85 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4DFB20518385C3200A2AA85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40495501838FB73007B328A /* Note.m in Sources */,
+				C404954C1838FB73007B328A /* Account.m in Sources */,
+				C4DFB21F18385C3200A2AA85 /* MSAppDelegate.m in Sources */,
+				C4DFB21B18385C3200A2AA85 /* main.m in Sources */,
+				C4DFB24718385E1000A2AA85 /* MSNoteListViewController.m in Sources */,
+				C4DFB24B18385F1600A2AA85 /* MSPasswordListViewController.m in Sources */,
+				C4DFB258183868B200A2AA85 /* MSNoteViewController.m in Sources */,
+				C404955B18390EFA007B328A /* MSPasswordTransformer.m in Sources */,
+				C404955618390A8E007B328A /* NSData+Encryption.m in Sources */,
+				C4DFB22218385C3200A2AA85 /* MyStashForCoreDataSecurity.xcdatamodeld in Sources */,
+				C404953D1838FAB6007B328A /* MSPasswordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DFB22518385C3200A2AA85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40495521838FEA6007B328A /* MSPasswordViewController.m in Sources */,
+				C404955718390A8E007B328A /* NSData+Encryption.m in Sources */,
+				C404954D1838FB73007B328A /* Account.m in Sources */,
+				C404953A1838F3AF007B328A /* MSAppDelegate.m in Sources */,
+				C4DFB259183868B200A2AA85 /* MSNoteViewController.m in Sources */,
+				C4DFB24C18385F1600A2AA85 /* MSPasswordListViewController.m in Sources */,
+				C404955C18390EFA007B328A /* MSPasswordTransformer.m in Sources */,
+				C4DFB24818385E1000A2AA85 /* MSNoteListViewController.m in Sources */,
+				C40495511838FB73007B328A /* Note.m in Sources */,
+				C4DFB23818385C3200A2AA85 /* MyStashForCoreDataSecurityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4DFB23018385C3200A2AA85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4DFB20818385C3200A2AA85 /* MyStashForCoreDataSecurity */;
+			targetProxy = C4DFB22F18385C3200A2AA85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4DFB21718385C3200A2AA85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DFB21818385C3200A2AA85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4DFB23418385C3200A2AA85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4DFB23518385C3200A2AA85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4DFB23918385C3200A2AA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4DFB23A18385C3200A2AA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4DFB23C18385C3200A2AA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStashForCoreDataSecurity/MyStashForCoreDataSecurity-Prefix.pch";
+				INFOPLIST_FILE = "MyStashForCoreDataSecurity/MyStashForCoreDataSecurity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4DFB23D18385C3200A2AA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStashForCoreDataSecurity/MyStashForCoreDataSecurity-Prefix.pch";
+				INFOPLIST_FILE = "MyStashForCoreDataSecurity/MyStashForCoreDataSecurity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C4DFB23F18385C3200A2AA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyStashForCoreDataSecurity.app/MyStashForCoreDataSecurity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStashForCoreDataSecurity/MyStashForCoreDataSecurity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyStashForCoreDataSecurityTests/MyStashForCoreDataSecurityTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C4DFB24018385C3200A2AA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyStashForCoreDataSecurity.app/MyStashForCoreDataSecurity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStashForCoreDataSecurity/MyStashForCoreDataSecurity-Prefix.pch";
+				INFOPLIST_FILE = "MyStashForCoreDataSecurityTests/MyStashForCoreDataSecurityTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DFB20418385C3200A2AA85 /* Build configuration list for PBXProject "MyStashForCoreDataSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DFB23918385C3200A2AA85 /* Debug */,
+				C4DFB23A18385C3200A2AA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DFB23B18385C3200A2AA85 /* Build configuration list for PBXNativeTarget "MyStashForCoreDataSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DFB23C18385C3200A2AA85 /* Debug */,
+				C4DFB23D18385C3200A2AA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DFB23E18385C3200A2AA85 /* Build configuration list for PBXNativeTarget "MyStashForCoreDataSecurityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DFB23F18385C3200A2AA85 /* Debug */,
+				C4DFB24018385C3200A2AA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4DFB22018385C3200A2AA85 /* MyStashForCoreDataSecurity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C404955818390DAE007B328A /* MyStashForCoreDataSecurity1.xcdatamodel */,
+				C4DFB22118385C3200A2AA85 /* MyStashForCoreDataSecurity.xcdatamodel */,
+			);
+			currentVersion = C404955818390DAE007B328A /* MyStashForCoreDataSecurity1.xcdatamodel */;
+			path = MyStashForCoreDataSecurity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C4DFB20118385C3200A2AA85 /* Project object */;
+}
